@@ -48,7 +48,7 @@ generator pothos {
   output = "./pothos-types.ts"
 }
 
-Exécutez la commande suivante pour regénérer le client et créer les nouveaux types
+!Important: Exécutez la commande suivante pour regénérer le client et créer les nouveaux types
 npx prisma generate
 
 pothos plugin "simple-objects, scope-auth"
